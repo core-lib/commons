@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+	<array type="com.qfox.commons.math.operator.Operator[][]">
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.inverse.LogarithmOperator" />
+			<complex type="com.qfox.commons.math.operator.inverse.NaturalLogarithmOperator" />
+			<complex type="com.qfox.commons.math.operator.inverse.PowerOperator" />
+			<complex type="com.qfox.commons.math.operator.inverse.RootOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.other.AbsoluteOperator" />
+			<complex type="com.qfox.commons.math.operator.other.ModuloOperator" />
+			<complex type="com.qfox.commons.math.operator.other.RemainOperator" />
+			<complex type="com.qfox.commons.math.operator.other.SignOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.trigonometric.CosineOperator" />
+			<complex type="com.qfox.commons.math.operator.trigonometric.SineOperator" />
+			<complex type="com.qfox.commons.math.operator.trigonometric.TangentOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.repeat.AccumulationOperator" />
+			<complex type="com.qfox.commons.math.operator.repeat.SummationOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.rounding.CeilOperator" />
+			<complex type="com.qfox.commons.math.operator.rounding.FloorOperator" />
+			<complex type="com.qfox.commons.math.operator.rounding.RoundOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.base.MultiplyOperator" />
+			<complex type="com.qfox.commons.math.operator.base.DivideOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.base.AddOperator" />
+			<complex type="com.qfox.commons.math.operator.base.SubtractOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.aggregate.AverageOperator" />
+			<complex type="com.qfox.commons.math.operator.aggregate.MaximumOperator" />
+			<complex type="com.qfox.commons.math.operator.aggregate.MinimumOperator" />
+			<complex type="com.qfox.commons.math.operator.aggregate.SummationOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.contrast.EqualOperator" />
+			<complex type="com.qfox.commons.math.operator.contrast.StringEqualOperator" />
+			<complex type="com.qfox.commons.math.operator.contrast.GreaterOrEqualOperator" />
+			<complex type="com.qfox.commons.math.operator.contrast.GreaterThanOperator" />
+			<complex type="com.qfox.commons.math.operator.contrast.LessOrEqualOperator" />
+			<complex type="com.qfox.commons.math.operator.contrast.LessThanOperator" />
+			<complex type="com.qfox.commons.math.operator.contrast.NotEqualOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.logic.AndOperator" />
+			<complex type="com.qfox.commons.math.operator.logic.OrOperator" />
+			<complex type="com.qfox.commons.math.operator.logic.NotOperator" />
+		</array>
+		<array type="com.qfox.commons.math.operator.Operator[]">
+			<complex type="com.qfox.commons.math.operator.structure.ForkOperator" />
+		</array>
+	</array>
+</context>
